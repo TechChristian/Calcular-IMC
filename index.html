@@ -21,7 +21,7 @@
                     <form>
                         <label for="peso">Seu Peso</label>
                         <div class="mb-3 mr-2 input-group">
-                            <input type="text" placeholder="Digite seu Peso (ex: 80)" class="form-control cor_input" id="peso">
+                            <input type="number" placeholder="Digite seu Peso (ex: 80)" class="form-control cor_input" id="peso">
                             
                              <div class="input-group-text">
                                 <span>Kg</span>
@@ -29,13 +29,13 @@
                         </div>
                         <label for="altura">Sua altura</label>
                         <div class="mb-3 mr-2 input-group">
-                            <input type="text" placeholder="Sua altura (ex: 1.79)" class="form-control cor_input" id="altura">
+                            <input type="number" placeholder="Sua altura (ex: 1.79)" class="form-control cor_input" id="altura">
                         <div class="input-group-text">
-                            <span>Cm</span>
+                            <span>M</span>
                         </div>
                         </div>
                         <div class="alert alert-info" id="resultado">Resultado</div>
-                        <button type="button" class="btn cor_btn">Calcular</button>
+                        <button type="button" class="btn cor_btn" onclick="CalcularIMC()">Calcular</button>
                     </form>
                         
                     </div>
@@ -43,34 +43,8 @@
 
             </div>
         </div>
-
-
-
-
-
     </div><!--Fim-->
+    <script src="script.js"></script>
 
-
-
-
-
-
-
-<!--
-<div class=" row row-cols-1 row-cols-3 g-4">
- <div class="col">
-    <div class="card bg-danger text-white">
-     <div class="card-header">
-      Cabeçalho do Cartão
-     </div>
-      <div class="card-body"> 
-        <h4 class="card-title">Título do cartão</h4>
-        <h6 class="card-subtitle">Subtítulo do cartão</h6>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
-        <a class="btn btn-outline-light" href="">Leia mais</a>
-      </div>
-    </div>
-</div>
--->
 </body>
 </html>
