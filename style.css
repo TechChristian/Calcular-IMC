@@ -1,0 +1,16 @@
+body{
+    background-color: #e6f3f3 ;
+    font-family: Georgia, serif;
+}
+.cor_input{
+    background-color: rgb(201, 219, 219);
+}
+.cor_card{
+    background-color:#4682B4 ;
+}
+.cor_btn {
+    background-color: #87CEFA;
+}
+.cor_btn:hover{
+    background-color: #548fc0;
+}
